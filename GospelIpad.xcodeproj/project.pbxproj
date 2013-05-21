@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93B1C4F8174B523700315E06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B1C4F7174B523700315E06 /* UIKit.framework */; };
+		93B1C4FA174B523700315E06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B1C4F9174B523700315E06 /* Foundation.framework */; };
+		93B1C4FC174B523700315E06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B1C4FB174B523700315E06 /* CoreGraphics.framework */; };
+		93B1C502174B523700315E06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93B1C500174B523700315E06 /* InfoPlist.strings */; };
+		93B1C504174B523700315E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C503174B523700315E06 /* main.m */; };
+		93B1C508174B523700315E06 /* GospelIpadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C507174B523700315E06 /* GospelIpadAppDelegate.m */; };
+		93B1C50B174B523700315E06 /* GospelIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B1C50A174B523700315E06 /* GospelIpadViewController.m */; };
+		93B1C50E174B523800315E06 /* GospelIpadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B1C50C174B523800315E06 /* GospelIpadViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		93B1C4F3174B523700315E06 /* GospelIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GospelIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93B1C4F7174B523700315E06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		93B1C4F9174B523700315E06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		93B1C4FB174B523700315E06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		93B1C4FF174B523700315E06 /* GospelIpad-Info.plist */ = {isa = PBXFileReference; path = "GospelIpad-Info.plist"; sourceTree = "<group>"; };
+		93B1C501174B523700315E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		93B1C503174B523700315E06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		93B1C505174B523700315E06 /* GospelIpad-Prefix.pch */ = {isa = PBXFileReference; path = "GospelIpad-Prefix.pch"; sourceTree = "<group>"; };
+		93B1C506174B523700315E06 /* GospelIpadAppDelegate.h */ = {isa = PBXFileReference; path = GospelIpadAppDelegate.h; sourceTree = "<group>"; };
+		93B1C507174B523700315E06 /* GospelIpadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GospelIpadAppDelegate.m; sourceTree = "<group>"; };
+		93B1C509174B523700315E06 /* GospelIpadViewController.h */ = {isa = PBXFileReference; path = GospelIpadViewController.h; sourceTree = "<group>"; };
+		93B1C50A174B523700315E06 /* GospelIpadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GospelIpadViewController.m; sourceTree = "<group>"; };
+		93B1C50D174B523800315E06 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GospelIpadViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93B1C4F0174B523700315E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B1C4F8174B523700315E06 /* UIKit.framework in Frameworks */,
+				93B1C4FA174B523700315E06 /* Foundation.framework in Frameworks */,
+				93B1C4FC174B523700315E06 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93B1C4E8174B523700315E06 = {
+			isa = PBXGroup;
+			children = (
+				93B1C4FD174B523700315E06 /* GospelIpad */,
+				93B1C4F6174B523700315E06 /* Frameworks */,
+				93B1C4F4174B523700315E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93B1C4F4174B523700315E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93B1C4F3174B523700315E06 /* GospelIpad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B1C4F6174B523700315E06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93B1C4F7174B523700315E06 /* UIKit.framework */,
+				93B1C4F9174B523700315E06 /* Foundation.framework */,
+				93B1C4FB174B523700315E06 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93B1C4FD174B523700315E06 /* GospelIpad */ = {
+			isa = PBXGroup;
+			children = (
+				93B1C506174B523700315E06 /* GospelIpadAppDelegate.h */,
+				93B1C507174B523700315E06 /* GospelIpadAppDelegate.m */,
+				93B1C509174B523700315E06 /* GospelIpadViewController.h */,
+				93B1C50A174B523700315E06 /* GospelIpadViewController.m */,
+				93B1C50C174B523800315E06 /* GospelIpadViewController.xib */,
+				93B1C4FE174B523700315E06 /* Supporting Files */,
+			);
+			path = GospelIpad;
+			sourceTree = "<group>";
+		};
+		93B1C4FE174B523700315E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B1C4FF174B523700315E06 /* GospelIpad-Info.plist */,
+				93B1C500174B523700315E06 /* InfoPlist.strings */,
+				93B1C503174B523700315E06 /* main.m */,
+				93B1C505174B523700315E06 /* GospelIpad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93B1C4F2174B523700315E06 /* GospelIpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B1C511174B523800315E06 /* Build configuration list for PBXNativeTarget "GospelIpad" */;
+			buildPhases = (
+				93B1C4EF174B523700315E06 /* Sources */,
+				93B1C4F0174B523700315E06 /* Frameworks */,
+				93B1C4F1174B523700315E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GospelIpad;
+			productName = GospelIpad;
+			productReference = 93B1C4F3174B523700315E06 /* GospelIpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93B1C4EA174B523700315E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 93B1C4ED174B523700315E06 /* Build configuration list for PBXProject "GospelIpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 93B1C4E8174B523700315E06;
+			productRefGroup = 93B1C4F4174B523700315E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93B1C4F2174B523700315E06 /* GospelIpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93B1C4F1174B523700315E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B1C502174B523700315E06 /* InfoPlist.strings in Resources */,
+				93B1C50E174B523800315E06 /* GospelIpadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93B1C4EF174B523700315E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B1C504174B523700315E06 /* main.m in Sources */,
+				93B1C508174B523700315E06 /* GospelIpadAppDelegate.m in Sources */,
+				93B1C50B174B523700315E06 /* GospelIpadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		93B1C500174B523700315E06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B1C501174B523700315E06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		93B1C50C174B523800315E06 /* GospelIpadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				93B1C50D174B523800315E06 /* en */,
+			);
+			name = GospelIpadViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		93B1C50F174B523800315E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		93B1C510174B523800315E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93B1C512174B523800315E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GospelIpad/GospelIpad-Prefix.pch";
+				INFOPLIST_FILE = "GospelIpad/GospelIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		93B1C513174B523800315E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GospelIpad/GospelIpad-Prefix.pch";
+				INFOPLIST_FILE = "GospelIpad/GospelIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93B1C4ED174B523700315E06 /* Build configuration list for PBXProject "GospelIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B1C50F174B523800315E06 /* Debug */,
+				93B1C510174B523800315E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B1C511174B523800315E06 /* Build configuration list for PBXNativeTarget "GospelIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B1C512174B523800315E06 /* Debug */,
+				93B1C513174B523800315E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93B1C4EA174B523700315E06 /* Project object */;
+}
